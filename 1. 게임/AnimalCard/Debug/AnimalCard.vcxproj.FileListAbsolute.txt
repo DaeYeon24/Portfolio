@@ -1,0 +1,2 @@
+C:\Users\eodus\Desktop\AnimalCard\Debug\AnimalCard.exe
+C:\Users\eodus\Desktop\AnimalCard\Debug\AnimalCard.pdb

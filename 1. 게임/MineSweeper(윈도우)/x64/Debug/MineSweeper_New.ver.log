@@ -1,0 +1,10 @@
+﻿  Block.cpp
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\MineSweeper_New.ver\MineSweeper_New.ver\Block.cpp(57,55): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\MineSweeper_New.ver\MineSweeper_New.ver\Block.cpp(57,47): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameManager.cpp
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\MineSweeper_New.ver\MineSweeper_New.ver\GameManager.cpp(51,86): error C2664: 'HFONT CreateFontW(int,int,int,int,int,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,LPCWSTR)': 인수 14을(를) 'const char [5]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\MineSweeper_New.ver\MineSweeper_New.ver\GameManager.cpp(51,78): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\wingdi.h(3782,26): message : 'CreateFontW' 선언을 참조하십시오.
+  WinMain.cpp
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\MineSweeper_New.ver\MineSweeper_New.ver\WinMain.cpp(31,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...

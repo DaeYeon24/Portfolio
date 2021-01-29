@@ -1,0 +1,18 @@
+﻿  Character.cpp
+C:\Users\eodus\source\repos\Project\Project\Character.h(20,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Project\Project\Character.h(20,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Project\Project\Character.cpp(43,1): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\conio.h(453): message : 'getch' 선언을 참조하십시오.
+  Map.cpp
+C:\Users\eodus\source\repos\Project\Project\MapDraw.h(13,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Project\Project\MapDraw.h(13,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Project\Project\Character.h(20,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Project\Project\Character.h(20,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  main.cpp
+C:\Users\eodus\source\repos\Project\Project\MapDraw.h(13,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Project\Project\MapDraw.h(13,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Project\Project\Character.h(20,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Project\Project\Character.h(20,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Project\Project\main.cpp(4,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  코드를 생성하고 있습니다...
+  Project.vcxproj -> C:\Users\eodus\source\repos\Project\Project\Debug\Project.exe

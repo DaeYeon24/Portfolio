@@ -1,0 +1,24 @@
+﻿  Alarm.cpp
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Block.h(27,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Block.h(27,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Draw.h(17,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Draw.h(17,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Snake.h(48,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Snake.h(48,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  Block.cpp
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Block.h(27,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Block.h(27,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Block.cpp(15,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  GameManager.cpp
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Block.h(27,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Block.h(27,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Draw.h(17,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Draw.h(17,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Snake.h(48,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\Snake.h(48,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\GameManager.cpp(13,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\GameManager.cpp(69,7): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\GameManager.cpp(70,20): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\NewSankeGame\GameManager.cpp(77,4): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  코드를 생성하고 있습니다...
+  NewSankeGame.vcxproj -> C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\NewSankeGame_list(옵저버)\x64\Debug\NewSankeGame.exe

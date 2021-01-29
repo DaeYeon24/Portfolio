@@ -1,0 +1,7 @@
+﻿  Main.cpp
+C:\Users\eodus\source\repos\NewVenetia\NewVenetia\Interface.h(40,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\NewVenetia\NewVenetia\Interface.h(40,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\NewVenetia\NewVenetia\Main.cpp(4,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\eodus\source\repos\NewVenetia\NewVenetia\Main.cpp(9,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 'sprintf' 선언을 참조하십시오.
+  NewVenetia.vcxproj -> C:\Users\eodus\source\repos\NewVenetia\Debug\NewVenetia.exe

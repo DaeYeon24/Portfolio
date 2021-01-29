@@ -1,0 +1,2 @@
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\OmokGame\x64\Debug\OmokGame.exe
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\OmokGame\x64\Debug\OmokGame.pdb

@@ -1,0 +1,16 @@
+﻿  Manager.cpp
+C:\Users\eodus\source\repos\Rabbit\Car\Rabbit.h(30,17): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Rabbit\Car\Rabbit.h(30,20): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Rabbit\Car\Manager.h(20,17): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Rabbit\Car\Manager.h(20,20): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  Rabbit.cpp
+C:\Users\eodus\source\repos\Rabbit\Car\Rabbit.h(30,17): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Rabbit\Car\Rabbit.h(30,20): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  main.cpp
+C:\Users\eodus\source\repos\Rabbit\Car\Rabbit.h(30,17): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Rabbit\Car\Rabbit.h(30,20): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Rabbit\Car\Manager.h(20,17): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Rabbit\Car\Manager.h(20,20): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\Rabbit\Car\main.cpp(4,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  코드를 생성하고 있습니다...
+  Car.vcxproj -> C:\Users\eodus\source\repos\Rabbit\Car\Debug\Car.exe

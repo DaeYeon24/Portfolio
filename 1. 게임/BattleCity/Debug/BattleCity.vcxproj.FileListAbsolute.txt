@@ -1,0 +1,6 @@
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\BattleCity\Debug\BattleCity.exe
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\BattleCity\Debug\BattleCity.pdb
+C:\Users\eodus\Desktop\포트폴리오 코드\BattleCity\Debug\BattleCity.exe
+C:\Users\eodus\Desktop\포트폴리오 코드\BattleCity\Debug\BattleCity.pdb
+C:\Users\eodus\Desktop\BattleCity\Debug\BattleCity.exe
+C:\Users\eodus\Desktop\BattleCity\Debug\BattleCity.pdb

@@ -1,0 +1,10 @@
+﻿  Unit.cpp
+C:\Users\eodus\source\repos\RPG_TEXT_GAME\RPG_TEXT_GAME\Draw.h(21,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\RPG_TEXT_GAME\RPG_TEXT_GAME\Draw.h(21,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\source\repos\RPG_TEXT_GAME\RPG_TEXT_GAME\Unit.cpp(88,1): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\conio.h(459): message : 'kbhit' 선언을 참조하십시오.
+C:\Users\eodus\source\repos\RPG_TEXT_GAME\RPG_TEXT_GAME\Unit.cpp(90,1): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\conio.h(453): message : 'getch' 선언을 참조하십시오.
+C:\Users\eodus\source\repos\RPG_TEXT_GAME\RPG_TEXT_GAME\Unit.cpp(183,1): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\conio.h(453): message : 'getch' 선언을 참조하십시오.
+  RPG_TEXT_GAME.vcxproj -> C:\Users\eodus\source\repos\RPG_TEXT_GAME\Debug\RPG_TEXT_GAME.exe

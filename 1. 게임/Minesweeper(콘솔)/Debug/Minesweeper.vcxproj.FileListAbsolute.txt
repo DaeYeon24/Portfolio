@@ -1,0 +1,2 @@
+C:\Users\eodus\Desktop\Minesweeper(콘솔)\Debug\Minesweeper.exe
+C:\Users\eodus\Desktop\Minesweeper(콘솔)\Debug\Minesweeper.pdb

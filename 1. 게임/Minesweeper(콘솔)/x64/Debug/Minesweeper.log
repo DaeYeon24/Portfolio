@@ -1,0 +1,28 @@
+﻿  Draw.cpp
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Draw.h(22,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Draw.h(22,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Draw.cpp(44,69): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Draw.cpp(56,68): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Draw.h(22,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Draw.h(22,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Block.h(26,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Block.h(26,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Player.h(35,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Player.h(35,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\main.cpp(4,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\main.cpp(8,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Manager.cpp
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Draw.h(22,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Draw.h(22,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Block.h(26,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Block.h(26,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Player.h(35,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Player.h(35,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  Player.cpp
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Block.h(26,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Block.h(26,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Player.h(35,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\Minesweeper\Player.h(35,24): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  코드를 생성하고 있습니다...
+  Minesweeper.vcxproj -> C:\Users\eodus\Desktop\옮길거 (1)\옮길거\공부자료\B게임코드\Minesweeper\x64\Debug\Minesweeper.exe
