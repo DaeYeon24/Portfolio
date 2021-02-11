@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\eodus\source\repos\Vecter_Map\Vecter_Map\main.cpp(51,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  Vecter_Map.vcxproj -> C:\Users\eodus\source\repos\Vecter_Map\Debug\Vecter_Map.exe
