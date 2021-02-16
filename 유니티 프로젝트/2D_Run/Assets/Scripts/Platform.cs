@@ -6,11 +6,28 @@ public class Platform : MonoBehaviour {
     private bool stepped = false; // 플레이어 캐릭터가 밟았었는가
 
     // 컴포넌트가 활성화될때 마다 매번 실행되는 메서드
-    private void OnEnable() {
+    private void OnEnable()
+    {
         // 발판을 리셋하는 처리
+        stepped = false;
+
+        for(int i = 0; i < obstacles.Length; i ++)
+        { // 3분의 1 확률 생성
+            if (Random.Range(0, 3) == 0)
+                obstacles[i].SetActive(true);
+            else
+                obstacles[i].SetActive(false);
+        }
     }
 
-    void OnCollisionEnter2D(Collision2D collision) {
+    void OnCollisionEnter2D(Collision2D collision)
+    {
         // 플레이어 캐릭터가 자신을 밟았을때 점수를 추가하는 처리
+        if(collision.collider.tag == "Player" && !stepped)
+        {
+            stepped = true;
+            // 점수 추가
+            GameManager.instance.AddScore(1);
+        }
     }
 }
