@@ -26,8 +26,8 @@ public class PlayerController : MonoBehaviour {
         // 사용자 입력을 감지하고 점프하는 처리
         if (isDead)
             return;
-
-        if(Input.GetMouseButtonDown(0) && jumpCount < 2) // 최대점프 이하에서 마우스 클릭시
+        
+        if(Input.GetKeyDown(KeyCode.Space) && jumpCount < 2) // 최대점프 이하에서 마우스 클릭시
         { // 점프 개수 증가
             jumpCount++;
             // 점프시 순간 속도 제로 > 다음 점프의 물리적인 방해 예방을 위해
@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour {
             playerRigidbody.AddForce(new Vector2(0, jumpForce)); //점프 힘 적용
             playerAudio.Play(); // 사운드
         }
-        else if(Input.GetMouseButtonUp(0) && playerRigidbody.velocity.y > 0) // 마우스를 떼는 순간 y값이 양수라면 현재속도 절반
+        else if(Input.GetKeyUp(KeyCode.Space) && playerRigidbody.velocity.y > 0) // 마우스를 떼는 순간 y값이 양수라면 현재속도 절반
             playerRigidbody.velocity = playerRigidbody.velocity * 0.5f;
 
         // 애니메이터의 파라미터를 isGrounded 값으로 갱신
