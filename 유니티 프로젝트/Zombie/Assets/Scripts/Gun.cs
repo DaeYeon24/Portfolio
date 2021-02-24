@@ -38,25 +38,84 @@ public class Gun : MonoBehaviour {
 
     private void Awake() {
         // 사용할 컴포넌트들의 참조를 가져오기
+        gunAudioPlayer = GetComponent<AudioSource>();
+        bulletLineRenderer = GetComponent<LineRenderer>();
+        //사용할 점 두개 (총구, 타격점)
+        bulletLineRenderer.positionCount = 2;
+        //라인렌더러 비활성화
+        bulletLineRenderer.enabled = false;
     }
 
     private void OnEnable() {
         // 총 상태 초기화
+        // 현재 탄창 가득 채우기
+        magAmmo = magCapacity;
+        // 총을 준비 상태
+        state = State.Ready;
+        lastFireTime = 0;
     }
 
     // 발사 시도
     public void Fire() {
-
+        // 조건 체크
+        if(state == State.Ready && Time.time >= lastFireTime + timeBetFire)
+        {
+            // 시간 갱신
+            lastFireTime = Time.time;
+            // 발사
+            Shot();
+        }
     }
 
     // 실제 발사 처리
     private void Shot() {
-        
+        // 레이캐스트 정보 저장 컨테이너
+        RaycastHit hit;
+        // 타격점 위치
+        Vector3 hitPosition = Vector3.zero;
+        // 시작지점, 방향, 컨테이너, 사정거리
+        if(Physics.Raycast(fireTransform.position, fireTransform.forward, out hit, fireDistance))
+        { // 타격한 경우
+            //타격한 오브젝트로부터 IDamageable 오브젝트 가져옴
+            IDamageable target = hit.collider.GetComponent<IDamageable>();
+            //성공했다면
+            if(target != null)
+            {
+                // 타격 오브젝트 대미지 주기
+                target.OnDamage(damage, hit.point, hit.normal);
+            }
+            // 타격 위치 저장
+            hitPosition = hit.point;
+        }
+        else
+        {
+            // 타격이 없다면 최대사정거리
+            hitPosition = fireTransform.position + fireTransform.forward * fireDistance;
+        }
+        // 발사 이펙트 재생
+        StartCoroutine(ShotEffect(hitPosition));
+        // 탄알 감소
+        magAmmo--;
+        if(magAmmo <= 0)
+        {
+            //탄창에 남은 탄알이 없다면 상태 변경
+            state = State.Empty;
+        }
     }
 
     // 발사 이펙트와 소리를 재생하고 총알 궤적을 그린다
     private IEnumerator ShotEffect(Vector3 hitPosition) {
         // 라인 렌더러를 활성화하여 총알 궤적을 그린다
+        //이펙트 플레이
+        muzzleFlashEffect.Play();
+        shellEjectEffect.Play();
+        // 사운드
+        gunAudioPlayer.PlayOneShot(shotClip);
+        // 총구
+        bulletLineRenderer.SetPosition(0, fireTransform.position);
+        // 타격점
+        bulletLineRenderer.SetPosition(1, hitPosition);
+        // 렌더러 활성화
         bulletLineRenderer.enabled = true;
 
         // 0.03초 동안 잠시 처리를 대기
@@ -68,17 +127,29 @@ public class Gun : MonoBehaviour {
 
     // 재장전 시도
     public bool Reload() {
-        return false;
+        // 이미 장전중이거나 탄알이 없거나 탄창에 탄알이 가득한경우 false
+        if (state == State.Reloading || ammoRemain <= 0 || magAmmo >= magCapacity)
+            return false;
+        // 아니면 재장전
+        StartCoroutine(ReloadRoutine());
+        return true;
     }
 
     // 실제 재장전 처리를 진행
     private IEnumerator ReloadRoutine() {
         // 현재 상태를 재장전 중 상태로 전환
         state = State.Reloading;
-        
+        // 사운드
+        gunAudioPlayer.PlayOneShot(reloadClip);
         // 재장전 소요 시간 만큼 처리를 쉬기
         yield return new WaitForSeconds(reloadTime);
-
+        // 탄알 개수 계산
+        int ammoToFill = magCapacity - magAmmo;
+        if (ammoRemain < ammoToFill)
+            ammoToFill = ammoRemain;
+        // 채움
+        magAmmo += ammoToFill;
+        ammoRemain -= ammoToFill;
         // 총의 현재 상태를 발사 준비된 상태로 변경
         state = State.Ready;
     }

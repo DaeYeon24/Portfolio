@@ -29,6 +29,22 @@ public class PlayerShooter : MonoBehaviour {
 
     private void Update() {
         // 입력을 감지하고 총 발사하거나 재장전
+        if(playerInput.fire)
+        {
+            //발사 입력 감지하면 발사
+            gun.Fire();
+        }
+        else if(playerInput.reload)
+        {
+            // 재장전 입력 감지하면 재장전
+            if(gun.Reload())
+            {
+                //재장전 성공하면 애니메이션 출력
+                playerAnimator.SetTrigger("Reload");
+            }
+        }
+        //남은 탄알 UI
+        UpdateUI();
     }
 
     // 탄약 UI 갱신
@@ -42,6 +58,20 @@ public class PlayerShooter : MonoBehaviour {
 
     // 애니메이터의 IK 갱신
     private void OnAnimatorIK(int layerIndex) {
-        
+        // 총의 기준점 피벗을 캐릭터 오른쪽 팔꿈치 위치로 이동
+        gunPivot.position = playerAnimator.GetIKHintPosition(AvatarIKHint.RightElbow);
+        // IK를 사용하여 왼손의 위치와 회전을 왼쪽 손잡이에 맞춤
+        playerAnimator.SetIKPositionWeight(AvatarIKGoal.LeftHand, 1.0f);
+        playerAnimator.SetIKRotationWeight(AvatarIKGoal.LeftHand, 1.0f);
+
+        playerAnimator.SetIKPosition(AvatarIKGoal.LeftHand, leftHandMount.position);
+        playerAnimator.SetIKRotation(AvatarIKGoal.LeftHand, leftHandMount.rotation);
+
+        // IK를 사용하여 오른손도 동일하게
+        playerAnimator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1.0f);
+        playerAnimator.SetIKRotationWeight(AvatarIKGoal.RightHand, 1.0f);
+
+        playerAnimator.SetIKPosition(AvatarIKGoal.RightHand, rightHandMount.position);
+        playerAnimator.SetIKRotation(AvatarIKGoal.RightHand, rightHandMount.rotation);
     }
 }
