@@ -38,10 +38,9 @@ public class PlayerMovement : MonoBehaviour {
 
     // 입력값에 따라 캐릭터를 좌우로 회전
     private void Rotate() {
-        // 회전 계산
+       // 회전 계산
         float turn = playerInput.rotate * rotateSpeed * Time.deltaTime;
         // 게임 오브젝트 회전 변경
         playerRigidbody.rotation = playerRigidbody.rotation * Quaternion.Euler(0f, turn, 0f);
-
     }
 }
