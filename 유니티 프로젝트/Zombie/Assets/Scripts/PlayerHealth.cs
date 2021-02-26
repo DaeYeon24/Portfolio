@@ -72,8 +72,8 @@ public class PlayerHealth : LivingEntity {
         // 애니메이터 Die 트리거 발동
         playerAnimator.SetTrigger("Die");
         // 플레이어 조작을 받는 컴포넌트 비활성화
-        playerAnimator.enabled = false;
-        playerAudioPlayer.enabled = false; // 참고. 코드 처리시 사망효과음 안들림
+        //playerAnimator.enabled = false;
+        //playerAudioPlayer.enabled = false; // 참고. 코드 처리시 사망효과음 안들림
     }
 
     private void OnTriggerEnter(Collider other) {
