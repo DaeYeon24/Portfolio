@@ -6,22 +6,29 @@ public class PlatformSpawner : MonoBehaviour
 {
     public GameObject platformPrefab;
     GameObject[] platforms;
-    int platformCount = 3;
-    int currentIndex = 0;
-
-    float spawnTimeMin = 1f;
-    float spawnTimeMax = 3f;
+    int platformCount;
+    int currentIndex;
+    float spawnTimeMin;
+    float spawnTimeMax;
     float spawnTimeGap;
     float lastSpawnTime;
-
-    float createMin = -3;
-    float createMax = 3;
-    float[] createZ = new float[3];
-
-    Vector3 poolPos = new Vector3(0, -10, 0);
+    float createMin;
+    float createMax;
+    float[] createZ;
+    Vector3 poolPos;
 
     void Awake()
     {
+        platformCount = 3;
+        currentIndex = 0;
+        spawnTimeMin = 1f;
+        spawnTimeMax = 3f;
+        spawnTimeGap = 0;
+        lastSpawnTime = 0;
+        createMin = -3;
+        createMax = 3;
+        createZ = new float[3];
+        poolPos = new Vector3(0, -10, 0);
         platforms = new GameObject[platformCount];
 
         for(int i = 0; i < platformCount; i++)
@@ -29,14 +36,11 @@ public class PlatformSpawner : MonoBehaviour
             platforms[i] = Instantiate(platformPrefab, poolPos, Quaternion.identity);
             createZ[i] = 0f;
         }
-
-        lastSpawnTime = 0f;
-        spawnTimeGap = 0f;
     }
 
     void Update()
     {
-        if (platforms[currentIndex].GetComponent<Platform>().isSpawn)
+        if (!UIManager.getInstance.powerOn || platforms[currentIndex].GetComponent<Platform>().isSpawn)
             return;
 
         if (Time.time >= lastSpawnTime + spawnTimeGap)

@@ -13,14 +13,13 @@ public class Platform : MonoBehaviour
         floor = FindObjectOfType<Floor>();
     }
 
-    private void Start()
+    void Start()
     {
         isSpawn = false;
     }
 
     void OnEnable()
     {
-
         isSpawn = true;
         for(int i = 0; i < items.Length; i ++)
         {
@@ -29,6 +28,7 @@ public class Platform : MonoBehaviour
             else
                 items[i].SetActive(false);
         }
+        StartCoroutine(Unused());
     }
 
     void Update()
@@ -39,7 +39,13 @@ public class Platform : MonoBehaviour
 
     private IEnumerator Disable()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
+        gameObject.SetActive(false);
+    }
+
+    private IEnumerator Unused()
+    {
+        yield return new WaitForSeconds(6f);
         gameObject.SetActive(false);
     }
 

@@ -5,35 +5,26 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     Rigidbody playerRigidbody;
-    public int score; // UI 만들면 옮기기
-    public bool isGameClear; // 마찬가지 고려해보자
-
-    float jumpForce;
-    float speed;
+    float jumpForce, speed;
     int jumpCount;
-    bool isFloor;
+    bool readyToJump;
 
     void Awake()
     {
         playerRigidbody = GetComponent<Rigidbody>();
-        score = 0;
-        jumpForce = 30f;
+        jumpForce = 45f;
         speed = 30f;
         jumpCount = 0;
-        isFloor = false;
-        isGameClear = false;
+        readyToJump = false;
     }
 
     void FixedUpdate()
     {
+        if (!UIManager.getInstance.powerOn)
+            return;
         float xInput = Input.GetAxisRaw("Horizontal") * speed;
         float zInput = Input.GetAxisRaw("Vertical") * speed;
         playerRigidbody.AddForce(new Vector3(xInput * Time.deltaTime, 0, zInput * Time.deltaTime), ForceMode.Impulse);
-
-    }
-
-    void Update()
-    {
         if (Input.GetButtonDown("Jump") && jumpCount < 2)
         {
             jumpCount++;
@@ -48,14 +39,8 @@ public class Player : MonoBehaviour
     {
         if(collision.gameObject.tag == "Floor")
         {
-            isFloor = true;
+            readyToJump = true;
             jumpCount = 0;
         }
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if(other.tag == "Finish")
-            isGameClear = true;
     }
 }

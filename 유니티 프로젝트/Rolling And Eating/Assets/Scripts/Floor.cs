@@ -17,3 +17,4 @@ public class Floor : MonoBehaviour
             isGone = true;
     }
 }
+//f

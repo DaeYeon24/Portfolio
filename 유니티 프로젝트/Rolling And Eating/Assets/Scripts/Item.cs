@@ -4,18 +4,26 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
+    int score;
+
+    void OnEnable()
+    {
+        score = Random.Range(1, 100);
+    }
+
     void Update()
     {
         transform.Rotate(Vector3.up * 50 * Time.deltaTime, Space.World);
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
         {
-            other.GetComponent<Player>().score += 100; // UI 만들면 UI로 옮기기
-            other.GetComponent<Player>().GetComponent<AudioSource>().Play();
+            other.GetComponent<AudioSource>().Play();
+            GameManager.getInstance.AddScore(score);
             gameObject.SetActive(false);
         }
     }
 }
+//f
