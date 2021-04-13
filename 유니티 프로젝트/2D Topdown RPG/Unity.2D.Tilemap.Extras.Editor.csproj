@@ -56,23 +56,23 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
-    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\PrefabBrushes\PrefabRandomBrush\PrefabRandomBrush.cs" />
-    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\PrefabBrushes\BasePrefabBrush.cs" />
-    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\RandomBrush\RandomBrush.cs" />
-    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
-    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\GroupBrush\GroupBrush.cs" />
+    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\CoordinateBrush\CoordinateBrush.cs" />
     <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Tiles\RuleTile\CustomRuleTileMenu.cs" />
-    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\TintBrushSmooth\TintBrushSmooth.cs" />
     <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
-    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
+    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\PrefabBrushes\PrefabRandomBrush\PrefabRandomBrush.cs" />
+    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
     <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\PrefabBrushes\PrefabBrush\PrefabBrush.cs" />
+    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\RandomBrush\RandomBrush.cs" />
+    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
     <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
+    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\GroupBrush\GroupBrush.cs" />
+    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\TintBrushSmooth\TintBrushSmooth.cs" />
+    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\PrefabBrushes\BasePrefabBrush.cs" />
     <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\TintBrush\TintBrush.cs" />
+    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
     <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Tiles\RuleOverrideTile\AdvancedRuleOverrideTileEditor.cs" />
     <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\LineBrush\LineBrush.cs" />
     <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Tiles\IsometricRuleTile\IsometricRuleTileEditor.cs" />
-    <Compile Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Brushes\CoordinateBrush\CoordinateBrush.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Imports\2d-extras-1.5.0-preview\2d-extras-1.5.0-preview\Editor\Tiles\RuleTile\ScriptTemplates\NewCustomRuleTile.cs.txt" />

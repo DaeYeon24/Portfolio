@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637534891927647059
-    m_Hash: 2204306383
+      ticks: 637537387921078772
+    m_Hash: 686281437
   m_LockFileStatus:
     m_FilePath: C:/Users/eodus/Unity Projects/2D Topdown RPG/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637534892325887798
-    m_Hash: 3394294237
+      ticks: 637537387921088531
+    m_Hash: 3979380318
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
