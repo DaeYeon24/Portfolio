@@ -57,8 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Imports\TopDown 2D RPG BE3\ReadMe\Scripts\ReadmeBE3.cs" />
-    <Compile Include="Assets\Scripts\PlayerCtrl.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerCtrl.cs" />
+    <Compile Include="Assets\Scripts\TalkManager.cs" />
+    <Compile Include="Assets\Scripts\ObjectData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

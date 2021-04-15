@@ -8669,6 +8669,7 @@ GameObject:
   - component: {fileID: 512785331}
   - component: {fileID: 512785330}
   - component: {fileID: 512785333}
+  - component: {fileID: 512785334}
   m_Layer: 3
   m_Name: Luna
   m_TagString: Untagged
@@ -8786,6 +8787,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &512785334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512785329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1824178c37c89f49b434eb569c12292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1001
+  isNPC: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -8968,6 +8983,7 @@ GameObject:
   - component: {fileID: 654039832}
   - component: {fileID: 654039831}
   - component: {fileID: 654039834}
+  - component: {fileID: 654039835}
   m_Layer: 3
   m_Name: Ludo
   m_TagString: Untagged
@@ -9085,6 +9101,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &654039835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654039830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1824178c37c89f49b434eb569c12292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1000
+  isNPC: 1
 --- !u!1 &659001378
 GameObject:
   m_ObjectHideFlags: 0
@@ -15756,6 +15786,7 @@ GameObject:
   - component: {fileID: 715611587}
   - component: {fileID: 715611586}
   - component: {fileID: 715611588}
+  - component: {fileID: 715611589}
   m_Layer: 3
   m_Name: Box
   m_TagString: Untagged
@@ -15854,6 +15885,63 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &715611589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715611585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1824178c37c89f49b434eb569c12292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 100
+  isNPC: 0
+--- !u!1 &852305109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 852305111}
+  - component: {fileID: 852305110}
+  m_Layer: 0
+  m_Name: Talk Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &852305110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852305109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d45b8ee731f84fe46b757cdb4ddac1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &852305111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852305109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &854368901
 GameObject:
   m_ObjectHideFlags: 0
@@ -15865,6 +15953,7 @@ GameObject:
   - component: {fileID: 854368903}
   - component: {fileID: 854368902}
   - component: {fileID: 854368904}
+  - component: {fileID: 854368905}
   m_Layer: 3
   m_Name: Desk
   m_TagString: Untagged
@@ -15963,6 +16052,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &854368905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854368901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1824178c37c89f49b434eb569c12292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 101
+  isNPC: 0
 --- !u!1 &897730947
 GameObject:
   m_ObjectHideFlags: 0
@@ -17907,6 +18010,7 @@ GameObject:
   - component: {fileID: 1824660173}
   - component: {fileID: 1824660172}
   - component: {fileID: 1824660174}
+  - component: {fileID: 1824660175}
   m_Layer: 3
   m_Name: Rock
   m_TagString: Untagged
@@ -18005,6 +18109,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1824660175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824660171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1824178c37c89f49b434eb569c12292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 102
+  isNPC: 0
 --- !u!1 &1941702897
 GameObject:
   m_ObjectHideFlags: 0

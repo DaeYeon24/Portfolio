@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     //public GameObject scanObject;
     static GameManager m_instance;
     public bool isInteraction { get; private set; }
+    TalkManager talkManager;
+    int talkIndex;
     public static GameManager instance
     {
         get
@@ -20,15 +22,38 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void Awake()
+    {
+        talkManager = FindObjectOfType<TalkManager>();
+        isInteraction = false;
+        talkIndex = 0;
+    }
+     
     public void Interaction(GameObject obj)
     {
-        if (isInteraction)
-            isInteraction = false;
-        else
-        {
-            isInteraction = true;
-            text.text = "이것은 " + obj.name + "라고 한다";
-        }
+        isInteraction = true;
+        ObjectData objectData = obj.GetComponent<ObjectData>();
+        Talk(objectData);
+
         Panel.SetActive(isInteraction);
+    }
+
+    void Talk(ObjectData objData)
+    {
+        string talkString = talkManager.GetTalk(objData.id, talkIndex);
+
+        if (talkString == null)
+        {
+            isInteraction = false;
+            talkIndex = 0;
+            return;
+        }
+
+        if(objData.isNPC)
+            text.text = talkString;
+        else
+            text.text = talkString;
+
+        talkIndex++;
     }
 }
