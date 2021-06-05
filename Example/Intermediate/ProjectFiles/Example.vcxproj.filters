@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Example.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E8BB93FB-B322-4D49-A4AE-E278F06E9226}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Example.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ExampleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{73032FBD-0DDB-4FCC-94F2-3C03DE92B7C8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Example">
+      <UniqueIdentifier>{834D0424-9493-4489-81D1-EE7291A0800E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Example\Countdown.cpp">
+      <Filter>Source\Example</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Example\Countdown.h">
+      <Filter>Source\Example</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Example\CustomStruct.cpp">
+      <Filter>Source\Example</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Example\CustomStruct.h">
+      <Filter>Source\Example</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Example\CustomTest.cpp">
+      <Filter>Source\Example</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Example\CustomTest.h">
+      <Filter>Source\Example</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Example\Door.cpp">
+      <Filter>Source\Example</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Example\Door.h">
+      <Filter>Source\Example</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Example\Example.Build.cs">
+      <Filter>Source\Example</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Example\Example.cpp">
+      <Filter>Source\Example</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Example\Example.h">
+      <Filter>Source\Example</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Example\ExampleGameModeBase.cpp">
+      <Filter>Source\Example</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Example\ExampleGameModeBase.h">
+      <Filter>Source\Example</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Example\Fire.cpp">
+      <Filter>Source\Example</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Example\Fire.h">
+      <Filter>Source\Example</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Example\FloatingActor.cpp">
+      <Filter>Source\Example</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Example\FloatingActor.h">
+      <Filter>Source\Example</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Example\MyActor.cpp">
+      <Filter>Source\Example</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Example\MyActor.h">
+      <Filter>Source\Example</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

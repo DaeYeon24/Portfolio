@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Example",
+			"Path": "C:\\Users\\eodus\\Documents\\Unreal Projects\\Example\\Source\\Example.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ExampleEditor",
+			"Path": "C:\\Users\\eodus\\Documents\\Unreal Projects\\Example\\Source\\ExampleEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
