@@ -1,3 +1,0 @@
-C:\Users\eodus\Documents\Unreal Projects\Example\Intermediate\Build\Win64\UE4Editor\Development\Example\Definitions.Example.h
-C:\Users\eodus\Documents\Unreal Projects\Example\Source\Example\FloatingActor.h
-C:\Users\eodus\Documents\Unreal Projects\Example\Intermediate\Build\Win64\UE4Editor\Inc\Example\FloatingActor.generated.h
