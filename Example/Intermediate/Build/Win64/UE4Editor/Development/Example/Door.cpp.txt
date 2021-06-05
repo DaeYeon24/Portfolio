@@ -1,0 +1,3 @@
+C:\Users\eodus\Documents\Unreal Projects\Example\Intermediate\Build\Win64\UE4Editor\Development\Example\Definitions.Example.h
+C:\Users\eodus\Documents\Unreal Projects\Example\Source\Example\Door.h
+C:\Users\eodus\Documents\Unreal Projects\Example\Intermediate\Build\Win64\UE4Editor\Inc\Example\Door.generated.h
