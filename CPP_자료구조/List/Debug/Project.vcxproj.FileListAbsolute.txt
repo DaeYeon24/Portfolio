@@ -1,2 +1,0 @@
-C:\Users\eodus\Desktop\포트폴리오 코드\자료구조\List\Debug\Project.exe
-C:\Users\eodus\Desktop\포트폴리오 코드\자료구조\List\Debug\Project.pdb

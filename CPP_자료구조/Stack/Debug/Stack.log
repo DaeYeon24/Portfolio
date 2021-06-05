@@ -1,5 +1,0 @@
-﻿  Stack.cpp
-  소스.cpp
-C:\Users\eodus\Desktop\포트폴리오 코드\Stack\소스.cpp(4,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
-  코드를 생성하고 있습니다...
-  Stack.vcxproj -> C:\Users\eodus\Desktop\포트폴리오 코드\Stack\Debug\Stack.exe

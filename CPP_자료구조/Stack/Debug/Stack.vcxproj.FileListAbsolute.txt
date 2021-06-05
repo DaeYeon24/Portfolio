@@ -1,4 +1,0 @@
-C:\Users\eodus\Desktop\포트폴리오 코드\Stack\Debug\Stack.exe
-C:\Users\eodus\Desktop\포트폴리오 코드\Stack\Debug\Stack.pdb
-C:\Users\eodus\Desktop\Stack\Debug\Stack.exe
-C:\Users\eodus\Desktop\Stack\Debug\Stack.pdb
