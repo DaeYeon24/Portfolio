@@ -1,5 +1,0 @@
-C:\Users\eodus\Documents\Unreal Projects\Example\Intermediate\Build\Win64\UE4Editor\Development\Example\Definitions.Example.h
-C:\Users\eodus\Documents\Unreal Projects\Example\Source\Example\Countdown.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine/Classes/Components/TextRenderComponent.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextRenderComponent.generated.h
-C:\Users\eodus\Documents\Unreal Projects\Example\Intermediate\Build\Win64\UE4Editor\Inc\Example\Countdown.generated.h
